@@ -1,0 +1,140 @@
+{
+    "data": {
+        "flowName": "流程名称33333",
+        "remark": "流程模板备注",
+        "standardId": "",
+        "typeId": "",
+        "formTemplateList": [],
+        "formTemplateVo": {
+            "name": "防水（防腐）层施工记录",
+            "code": "0001",
+            "templateDataUrl": "/daff/d",
+            "templateData": "{}",
+            "typeId": "00001",
+            "standardId": "00001",
+            "remark": "测试模板",
+            "fieldsTemplateList": [
+                {
+                    "name": "姓名",
+                    "englishName": "name",
+                    "fieldType": "stringType",
+                    "length": "20",
+                    "defaultValue": "123",
+                    "remark": "测试字段",
+                    "standby": "备用字段",
+                    "fieldStatus": "enable",
+                    "valueOrigin": "fromSystem"
+                },
+                {
+                    "name": "年龄",
+                    "englishName": "age",
+                    "fieldType": "stringType",
+                    "length": "20",
+                    "defaultValue": "2",
+                    "remark": "测试字段",
+                    "standby": "备用字段",
+                    "fieldStatus": "enable",
+                    "valueOrigin": "fromSystem"
+                }
+            ]
+        },
+        "flowNodeTemplate": {
+            "nodeName": "发起人",
+            "nodeDesc": "1",
+            "remark": "发起人备注",
+            "type": "start",
+            "flowNodeFieldPowerTemplateList": [
+                {
+                    "fieldPower": "edit",
+                    "formFieldTemplateEnglishName": "0587797e7eff4a65abb7497ce3258681"
+                }
+            ],
+            "childFlowNodeTemplate": {
+                "nodeName": "虚拟条件节点1",
+                "type": "condition",
+                "childFlowNodeTemplate": {
+                    "nodeName": "公共1",
+                    "type": "common",
+                    "flowNodeFieldPowerTemplateList": [
+                        {
+                            "fieldPower": "edit",
+                            "formFieldTemplateEnglishName": "0587797e7eff4a65abb7497ce3258681"
+                        }
+                    ],
+                    "childFlowNodeTemplate": {
+                        "nodeName": "公共2",
+                        "type": "end",
+                        "flowNodeFieldPowerTemplateList": [
+                            {
+                                "fieldPower": "edit",
+                                "formFieldTemplateEnglishName": "0587797e7eff4a65abb7497ce3258681"
+                            }
+                        ],
+                        "childFlowNodeTemplate": null
+                    }
+                },
+                "conditionNodes": [
+                    {
+                        "name": "流程策略1",
+                        "remark": "流程策略",
+                        "strategyType": "策略类型(比较大小,变更字段)",
+                        "conditionList": [
+                            {
+                                "conditionType": "and,or",
+                                "fieldaName": "条件1",
+                                "fieldbName": "字段b",
+                                "judge": "更"
+                            },
+                            {
+                                "conditionType": "and,or",
+                                "fieldaName": "条件2",
+                                "fieldbName": "字段b",
+                                "judge": "更"
+                            }
+                        ],
+                        "childFlowNodeTemplate": {
+                            "nodeName": "分支1",
+                            "type": "common",
+                            "flowNodeFieldPowerTemplateList": [
+                                {
+                                    "fieldPower": "edit",
+                                    "formFieldTemplateEnglishName": "0587797e7eff4a65abb7497ce3258681"
+                                }
+                            ],
+                            "childFlowNodeTemplate": {
+                                "nodeName": "分支2",
+                                "type": "common",
+                                "flowNodeFieldPowerTemplateList": [
+                                    {
+                                        "fieldPower": "edit",
+                                        "formFieldTemplateEnglishName": "0587797e7eff4a65abb7497ce3258681"
+                                    }
+                                ],
+                                "childFlowNodeTemplate": null
+                            }
+                        }
+                    },
+                    {
+                        "name": "流程策略2",
+                        "childFlowNodeTemplate": {
+                            "nodeName": "分支0",
+                            "type": "common",
+                            "flowNodeFieldPowerTemplateList": [],
+                            "childFlowNodeTemplate": null
+                        },
+                        "strategyType": "compare",
+                        "conditionList": [
+                            {
+                                "conditionType": "and,or",
+                                "fieldaName": "条件3",
+                                "fieldbName": "字段b",
+                                "judge": "更"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "sid": "{{sid}}"
+}

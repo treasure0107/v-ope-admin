@@ -1,0 +1,100 @@
+// .fm-form {
+//   margin: auto;
+//   .el-date-editor.el-input,
+//   .el-date-editor.el-input__inner {
+//     width: 100%;
+//   }
+
+//   .el-icon-date:before,
+//   .el-icon-time:before {
+//     display: none;
+//   }
+
+//   .el-textarea__inner {
+//     height: 100%;
+//     font-size: 16px;
+//     overflow: hidden;
+//     resize: none !important;
+//   }
+
+//   .el-form-item .el-form-item__label {
+//     line-height: 20px !important;
+//     width: 100% !important;
+//     text-align: left;
+//     font-size: 16px;
+//     font-weight: normal;
+//     padding: 0 !important;
+//   }
+
+//   .fm-form-item .el-form-item .el-form-item__label:last-child {
+//     font-size: 16px;
+//     // font-weight: 600;
+//     text-align: right !important;
+//   }
+
+//   table {
+//     border-collapse: collapse;
+//     margin-bottom: 0;
+//     .el-form-item .el-form-item__label {
+//       text-align: center;
+//     }
+//     .el-row--flex .el-col {
+//       .el-form-item .el-form-item__label {
+//         text-align: left;
+//       }
+//     }
+//   }
+//   // 相邻table表格的第二个去掉上边框
+//   table + table {
+//     border-top: none;
+//   }
+//   // 栅格布局下的input框带下划线
+//   .el-row--flex .el-col .el-input .el-input__inner {
+//     text-align: left;
+//     border-bottom: 1px solid #999999;
+//     border-radius: 0;
+//   }
+
+//   .fm-report-table__table .fm-report-table__td {
+//     padding: 2px !important;
+//   }
+
+//   td {
+//     vertical-align: middle;
+//   }
+
+//   input {
+//     outline: none !important;
+//     // border: none !important;
+//     padding: 0 !important;
+//     margin: 0;
+//     font-size: 16px;
+//   }
+
+//   textarea {
+//     // border: none !important;
+//     padding: 0 !important;
+//   }
+
+//   .fm-form-item .title {
+//     text-align: center;
+//     .el-form-item__label {
+//       font-weight: 700;
+//       font-size: 24px !important;
+//       line-height: 60px !important;
+//       text-align: center !important;
+//     }
+//   }
+
+//   .el-form-item {
+//     margin-bottom: 0 !important;
+//   }
+
+//   .item-status {
+//     display: none;
+//   }
+
+//   .el-button.is-disabled {
+//     display: none;
+//   }
+// }

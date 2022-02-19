@@ -1,0 +1,230 @@
+{
+    "message":"success",
+    "isSuccess":true,
+    "sid":null,
+    "code":0,
+    "platformCode":null,
+    "data":[
+        {
+            "id":"ac0b166fd0a744b089005024b49650c1",
+            "platformCode":"200001",
+            "sort":0,
+            "name":"场站管理",
+            "href":"/depotManagement",
+            "children":[
+                {
+                    "id":"08b0d2f0482a4f80ae20b939a955ee45",
+                    "platformCode":"200001",
+                    "sort":0,
+                    "name":"我的任务",
+                    "href":"/depotManagement/operationManagement/transitionManagement",
+                    "parentId":"ac0b166fd0a744b089005024b49650c1",
+                    "children":[
+                        {
+                            "id":"bc3f52556ae648e58a714b73bfe4d80e",
+                            "isDelete":false,
+                            "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+                            "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+                            "createDate":"2021-06-28 10:01:09",
+                            "updateDate":"2021-06-28 10:01:09",
+                            "platformCode":"200001",
+                            "sort":0,
+                            "name":"任务列表",
+                            "href":"/taskManage/myTask/index",
+                            "webpageHref":null,
+                            "type":"lower",
+                            "isShow":true,
+                            "style":null,
+                            "remarks":null,
+                            "parentId":"08b0d2f0482a4f80ae20b939a955ee45",
+                            "children":[
+
+                            ],
+                            "category":"2",
+                            "resourcesIdList":null,
+                            "resourcesVoList":[
+
+                            ],
+                            "delete":false
+                        },
+                        {
+                            "id":"57f734cf779f40529bb5c872d5bd4f3a",
+                            "isDelete":false,
+                            "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+                            "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+                            "createDate":"2021-06-28 10:01:09",
+                            "updateDate":"2021-06-28 10:01:09",
+                            "platformCode":"200001",
+                            "sort":0,
+                            "name":"任务详情",
+                            "href":"/taskManage/myTask/detail",
+                            "webpageHref":null,
+                            "type":"lower",
+                            "isShow":true,
+                            "style":null,
+                            "remarks":null,
+                            "parentId":"08b0d2f0482a4f80ae20b939a955ee45",
+                            "children":[
+
+                            ],
+                            "category":"2",
+                            "resourcesIdList":null,
+                            "resourcesVoList":[
+
+                            ],
+                            "delete":false
+                        }
+                    ],
+                    "category":"2",
+                    "resourcesIdList":null,
+                    "resourcesVoList":[
+
+                    ],
+                    "delete":false
+                },
+                {
+                    "id":"f870057f33424364bdcbfcd8cc5afbdd",
+                    "isDelete":false,
+                    "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+                    "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+                    "createDate":"2021-06-28 10:01:09",
+                    "updateDate":"2021-06-28 10:01:09",
+                    "platformCode":"200001",
+                    "sort":0,
+                    "name":"任务下发",
+                    "href":"/taskManage/taskArrange",
+                    "webpageHref":null,
+                    "type":"lower",
+                    "isShow":true,
+                    "style":null,
+                    "remarks":null,
+                    "parentId":"ac0b166fd0a744b089005024b49650c1",
+                    "children":[
+
+                    ],
+                    "category":"2",
+                    "resourcesIdList":null,
+                    "resourcesVoList":[
+
+                    ],
+                    "delete":false
+                },
+                {
+                    "id":"20389fb0893f4caf826b124b0902ddb5",
+                    "isDelete":false,
+                    "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+                    "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+                    "createDate":"2021-06-28 10:01:09",
+                    "updateDate":"2021-06-28 10:01:09",
+                    "platformCode":"200001",
+                    "sort":0,
+                    "name":"我的工作",
+                    "href":"/taskManage/myWork",
+                    "webpageHref":null,
+                    "type":"lower",
+                    "isShow":true,
+                    "style":null,
+                    "remarks":null,
+                    "parentId":"ac0b166fd0a744b089005024b49650c1",
+                    "children":[
+
+                    ],
+                    "category":"2",
+                    "resourcesIdList":null,
+                    "resourcesVoList":[
+
+                    ],
+                    "delete":false
+                }
+            ],
+            "category":"2",
+            "resourcesIdList":null,
+            "resourcesVoList":[
+
+            ],
+            "delete":false
+        },
+        {
+            "id":"d1ab7e0c93e0496b8dd86b62fffb065e",
+            "isDelete":false,
+            "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+            "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+            "createDate":"2021-06-28 10:01:09",
+            "updateDate":"2021-06-28 10:01:09",
+            "platformCode":"200001",
+            "sort":0,
+            "name":"基本信息",
+            "href":"/projectInfo",
+            "webpageHref":null,
+            "type":"top",
+            "isShow":true,
+            "style":null,
+            "remarks":null,
+            "parentId":null,
+            "children":[
+
+            ],
+            "category":"2",
+            "resourcesIdList":null,
+            "resourcesVoList":[
+
+            ],
+            "delete":false
+        },
+        {
+            "id":"4c3351a9bd23405cb959013023bd0b48",
+            "isDelete":false,
+            "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+            "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+            "createDate":"2021-06-28 10:01:09",
+            "updateDate":"2021-06-28 10:01:09",
+            "platformCode":"200001",
+            "sort":0,
+            "name":"项目首页",
+            "href":"/projectHomePage",
+            "webpageHref":null,
+            "type":"top",
+            "isShow":true,
+            "style":null,
+            "remarks":null,
+            "parentId":null,
+            "children":[
+
+            ],
+            "category":"2",
+            "resourcesIdList":null,
+            "resourcesVoList":[
+
+            ],
+            "delete":false
+        },
+        {
+            "id":"159d5abafaed4c689963f16acd3e8479",
+            "isDelete":false,
+            "createrId":"8DC5940D5083464DAF4366CF16E53A48",
+            "updaterId":"8DC5940D5083464DAF4366CF16E53A48",
+            "createDate":"2021-06-28 10:01:09",
+            "updateDate":"2021-06-28 10:01:09",
+            "platformCode":"200001",
+            "sort":0,
+            "name":"合同管理",
+            "href":"/contractManage",
+            "webpageHref":null,
+            "type":"top",
+            "isShow":true,
+            "style":null,
+            "remarks":null,
+            "parentId":null,
+            "children":[
+
+            ],
+            "category":"2",
+            "resourcesIdList":null,
+            "resourcesVoList":[
+
+            ],
+            "delete":false
+        }
+    ]
+  
+}
